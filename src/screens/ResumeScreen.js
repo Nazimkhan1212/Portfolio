@@ -9,7 +9,7 @@ import Particle from "../components/Particles";
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.js`;
 
 const resumeLink =
-  "../Assets/NazimResume.pdf";
+  "https://github.com/Nazimkhan1212/Portfolio/raw/main/src/Assets/NazimResume.pdf";
 
 const ResumeScreen = () => {
   const [width, setWidth] = useState(1200);
